@@ -22,4 +22,33 @@
 	border-style: solid;
 	border-color: black;
 	background-color: yellow;
+	padding: 4px;
+}
+
+.row {
+	display: inline-block;
+	/*margin: 2px;*/
+}
+.row1, .row2, .row3 {
+	margin-bottom: 4px;
+	margin-left: 2px;
+    margin-top: 3px;
+}
+
+.outerBox {
+	height: 165px;
+	width: 165px;
+	padding: 3px;
+	border: 5px solid #9C9CF5;
+	background-color: #9C9CF2;
+	
+}
+.blue {
+	background-color: blue;
+}
+.lime {
+	background-color: lime;
+}
+.hotpink {
+	background-color: hotpink;
 }

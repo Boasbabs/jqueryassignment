@@ -50,3 +50,14 @@ function q8() {
  	// $("#box5").fadeIn("slow");
  	$("#box5").slideUp(2000).slideDown(2000);
  }
+//channge the color of the div boxes
+ function changeColor(element) {
+ 	$(element).toggleClass('blue');
+ 	//$(element).hasClass("blue") ? $(element).removeClass("blue") : $(element).addClass("blue");
+ }
+ function changeColor2(element) {
+ 	$(element).toggleClass("hotpink");
+ }
+ function changeColor3(element) {
+ 	$(element).toggleClass("lime");
+ }
