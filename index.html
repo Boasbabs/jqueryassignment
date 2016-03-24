@@ -74,16 +74,16 @@
         <form>
         Choose which browser you prefer:
         <select id="browsers" onchange="preferedBrowser()">
-        <option value="Chrome">Chrome</option>
-        <option value="Internet Explorer">Internet Explorer</option>
-        <option value="Firefox">Firefox</option>
+          <option value="Chrome">Chrome</option>
+          <option value="Internet Explorer">Internet Explorer</option>
+          <option value="Firefox">Firefox</option>
         </select>
         </form>
     </li>
 
     <li>
       <h4>When the input field gets focus, a function is triggered which changes the background-color.</h4>
-        Enter your name: <input type="text" onfocus="color(this)">
+        Enter your name: <input type="text" name="fname3" onfocus="color(this)">
     </li>
 
     <li>
@@ -109,7 +109,7 @@
     </li>
     <li>
       <h4>A function is triggered when the user is pressing a key in the input field.</h4>
-      <input type="text" onkeydown="keydown()">
+      <input type="text" onkeydown="keydown(this)">
     </li>
     <li>
       <h4>A function is triggered when the user is pressing a key in the input field.</h4>

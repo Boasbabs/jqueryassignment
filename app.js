@@ -50,14 +50,44 @@ function q8() {
  	// $("#box5").fadeIn("slow");
  	$("#box5").slideUp(2000).slideDown(2000);
  }
+
+ //this is for onFocus event demonstrated by input feed
+ function color() {
+ 	$("input[name='fname3']").css("background-color", "greenyellow");
+ 	//$("input[name='fname3']").css('background', 'red')
+ }
+
+//this is for onChange event demonstrated by  browser alert.
+ function preferedBrowser() {
+ 	alert($("#browsers").val());
+ }
+//this is for onSelect event demonstrated by input text.
+function inputxt(argument) {
+	$("#demo").html("you selected some text");
+}
+function confirmInput() {
+	//var $takeIn = $("#fname :'text'").val();
+	alert("Hello! " + ""+ "You will be redirected!");
+}
+function message() {
+	// body...
+	alert("Reset");
+}
+
+function keydown(n) {
+  var elem = n;
+  var color = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+  elem.style.background = color;
+}
+
 //channge the color of the div boxes
- function changeColor(element) {
- 	$(element).toggleClass('blue');
- 	//$(element).hasClass("blue") ? $(element).removeClass("blue") : $(element).addClass("blue");
- }
- function changeColor2(element) {
- 	$(element).toggleClass("hotpink");
- }
- function changeColor3(element) {
- 	$(element).toggleClass("lime");
- }
+		 function changeColor(element) {
+		 	$(element).toggleClass('blue');
+		 	//$(element).hasClass("blue") ? $(element).removeClass("blue") : $(element).addClass("blue");
+		 }
+		 function changeColor2(element) {
+		 	$(element).toggleClass("hotpink");
+		 }
+		 function changeColor3(element) {
+		 	$(element).toggleClass("lime");
+		 }
